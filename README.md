@@ -25,7 +25,7 @@ $ sort -u american-english-insane Webster_s_Unabridged_3.txt words.txt -o americ
 
 ```
 
-Set the follownig variable in Emacs initiazation file to use american-english-healthy:
+Set the follownig variable in Emacs initiazation file to use [american-english-healthy](https://github.com/hongyi-zhao/english-wordlist/blob/master/american-english-healthy):
 
 ```emacs-lisp
 (setq ispell-alternate-dictionary (file-truename "/path/to/american-english-healthy"))
