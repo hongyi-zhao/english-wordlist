@@ -1,0 +1,1 @@
+See [here](https://lists.gnu.org/archive/html/help-gnu-emacs/2021-08/msg00138.html) for the motivation of the repository. Basically, the target is to build an exhaustive while healthy/reasonable Enaglish dictionary for ispell and company-ispell. The target audience is academic research and technology users who use Emacs as a way of life.
