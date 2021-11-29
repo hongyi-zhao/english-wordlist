@@ -29,7 +29,7 @@ or
 $ find ./source -type f | xargs cat | sort -uo american-english-exhaustive
 ```
 
-Set the follownig variable in Emacs initiazation file to use [american-english-exhaustive](https://github.com/hongyi-zhao/english-wordlist/blob/master/american-english-exhaustive):
+Set the follownig variable in Emacs initialization file to use [american-english-exhaustive](https://github.com/hongyi-zhao/english-wordlist/blob/master/american-english-exhaustive):
 
 ```emacs-lisp
 (setq ispell-alternate-dictionary (file-truename "/path/to/american-english-exhaustive"))
