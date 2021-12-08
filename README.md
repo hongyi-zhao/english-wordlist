@@ -27,7 +27,7 @@ The word list [words.txt](https://github.com/hongyi-zhao/english-wordlist/blob/m
 # https://groups.google.com/g/comp.unix.shell/c/ha5t3U54GmY/m/bpLYxoqEAAAJ
 $ find ./source -type f -exec cat {} + | sort -uo american-english-exhaustive
 or
-$ find ./source -type f -print0 | xargs -0 cat | sort -uo  american-english-exhaustive
+$ find ./source -type f -print0 | xargs -0 cat | sort -uo american-english-exhaustive
 ```
 
 Set the follownig variable in Emacs initialization file to use [american-english-exhaustive](https://github.com/hongyi-zhao/english-wordlist/blob/master/american-english-exhaustive):
